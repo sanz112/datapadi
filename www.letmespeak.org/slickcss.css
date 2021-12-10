@@ -27,7 +27,7 @@
    
    .section {
      overflow: hidden;
-     padding: 75px 40px;
+     padding: 40px 40px;
    }
    
    .section._1s {
@@ -49,7 +49,7 @@
      padding-left: 10px;
    }
    
-   .center-block {
+   /* .center-block {
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
@@ -67,38 +67,39 @@
    
    .center-block.center {
      text-align: center;
-   }
+   } */
    
    .h1 {
      margin-top: 0px;
      margin-bottom: 0px;
      color: #000;
-     font-size: 96px;
-     line-height: 117px;
+     font-size: 70px;
+     line-height: 80px !important;
      font-weight: 700;
      letter-spacing: -0.02em;
    }
    
    .h1.gradient {
      margin-bottom: 10px;
-     background-image: -webkit-gradient(linear, left top, right top, from(#7e41ff), color-stop(37%, #24a9f4), color-stop(75%, #00da91));
-     background-image: linear-gradient(90deg, #7e41ff, #24a9f4 37%, #00da91 75%);
+     background-image: -webkit-gradient(linear, left top, from(#7e41ff), color-stop(75%, #a90c0c));
+     background-image: linear-gradient(90deg, #7e41ff, #a90c0c 75%);
      color: #000;
-     line-height: 100px;
+     line-height: 80px;
+     z-index:-1;
      -webkit-background-clip: text;
      background-clip: text;
      -webkit-text-fill-color: transparent;
    }
    
-   .gradient {
+   /* .gradient {
      background-image: -webkit-gradient(linear, left top, right top, from(#7e41ff), color-stop(37%, #24a9f4), color-stop(75%, #00da91));
-     background-image: linear-gradient(90deg, #7e41ff, #24a9f4 37%, #00da91 75%);
-   }
+     background-image: linear-gradient(90deg, #7e41ff, #a90c0c 37%, #00da91 75%);
+   } */
    
    .h1-subtitle {
-     font-size: 52px;
-     line-height: 60px;
-     font-weight: 700;
+     font-size: 20px !important;
+     line-height: 25px;
+     font-weight: 500;
      letter-spacing: -0.02em;
    }
    
@@ -478,8 +479,8 @@
      display: -webkit-flex;
      display: -ms-flexbox;
      display: flex;
-     width: 33.3%;
-     padding-right: 32px;
+     width: 25%;
+     padding-right: 20px;
      -webkit-box-orient: horizontal;
      -webkit-box-direction: normal;
      -webkit-flex-direction: row;
@@ -1966,12 +1967,26 @@
        font-size: 72px;
        line-height: 66px;
      }
+
+     .new {
+       color: #a90c0c !important;
+     }
+
+     .reward {
+      color: #0082f3 !important;
+    }
+
+    span .expensive {
+      color: #e63838 !important;
+    }
+  
+  
    
      .h1-subtitle {
-       max-width: 250px;
-       font-size: 28px;
-       line-height: 34px;
-       font-weight: 700;
+       /* max-width: 250px; */
+       font-size: 18px !important;
+       line-height: 20px;
+       font-weight: 500;
        letter-spacing: 0em;
      }
    
@@ -2654,14 +2669,14 @@
    
      .h1.gradient {
        margin-bottom: 10px;
-       font-size: 15vw;
-       line-height: 15vw;
+       font-size: 2vw !important;
+       line-height: 2vw !important;
      }
    
      .h1-subtitle {
        margin-bottom: 25px;
-       font-size: 24px;
-       line-height: 30px;
+       font-size: 16px !important;
+       line-height: 18px;
      }
    
      .ic-block.w60 {
