@@ -299,7 +299,7 @@
    }
    
    .subtitle.orange {
-     color: #ff7a00;
+     color: #a90c0c;
    }
    
    .subtitle.orange.mb30 {
@@ -566,6 +566,16 @@
      padding-bottom: 78px;
      background-color: rgba(255, 122, 0, 0.1);
    }
+
+   .color-block._4 {
+    padding-bottom: 78px;
+    background-color: rgba(169, 12, 12, 0.1);
+    /* opacity: 0.1; */
+  }
+
+  .wine {
+    color: #a90c0c;
+  }
    
    .slide-row {
      display: -webkit-box;
@@ -928,7 +938,7 @@
      overflow: hidden;
      margin-bottom: 10px;
      font-family: 'Montserrat Alternates', sans-serif;
-     color: #ff7a00;
+     color: #a90c0c;
      font-size: 36px;
      line-height: 36px;
      font-weight: 700;
@@ -944,7 +954,7 @@
    }
    
    .title18.orange {
-     color: #ff7a00;
+     color: #a90c0c;
    }
    
    .title18.orange.mb16 {
@@ -1130,7 +1140,7 @@
    }
    
    .tl-title.orange {
-     color: #ff7a00;
+     color: #a90c0c;
    }
    
    .line2 {
@@ -1142,11 +1152,11 @@
    
    .togever {
      padding-right: 16px;
-     background-image: url("https://global-uploads.webflow.com/615998f78f900b06442cde55/615a9fef4c057c7752ea6dce_heart.svg");
+     background-image: url("./images/heart.svg");
      background-position: 100% 38px;
      background-size: 14px;
      background-repeat: no-repeat;
-     color: #ff7a00;
+     color: #a90c0c;
    }
    
    .row11 {
@@ -1166,7 +1176,7 @@
      display: -webkit-flex;
      display: -ms-flexbox;
      display: flex;
-     width: 33.3%;
+     width: 50%;
      padding-right: 76px;
      padding-bottom: 70px;
      -webkit-box-orient: vertical;
@@ -1186,12 +1196,12 @@
    
    .button {
      padding: 12px 25px;
-     border: 1px solid #ff7a00;
+     border: 1px solid #a90c0c;
      border-radius: 10px;
      background-color: rgba(255, 122, 0, 0);
      -webkit-transition: all 200ms ease;
      transition: all 200ms ease;
-     color: #ff7a00;
+     color: #a90c0c;
      font-size: 16px;
      line-height: 22px;
      font-weight: 600;
@@ -1199,7 +1209,7 @@
    }
    
    .button:hover {
-     background-color: #ff7a00;
+     background-color: #a90c0c;
      color: #fff;
    }
    
