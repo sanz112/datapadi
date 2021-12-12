@@ -131,6 +131,9 @@ ul.slick-dots {
   <style>
  .navigation {
      height: 55px;
+     position: fixed;
+     top:0;
+     z-index: 5;
      min-width: 100%;
      background: linear-gradient(45deg, #ffffff, #ffffff);
 }
@@ -149,8 +152,8 @@ ul.slick-dots {
      text-decoration: none;
 }
  .nav-container {
-     max-width: 100%;
-     min-width: 100%;
+     width: 100%;
+     /* min-width: 100%; */
      margin: 0 0;
 }
  nav {
@@ -170,7 +173,7 @@ ul.slick-dots {
      padding: 0 20px;
      line-height: 55px;
      color: rgb(32, 32, 32);
-     background: #e2e2e2 ;
+     background: #f8f8f8 ;
      text-decoration: none;
 }
  nav ul li a{
@@ -308,7 +311,7 @@ ul.slick-dots {
           </li>
           <li>
             <a href="#!">Register</a>
-            <ul class="navbar-dropdown">
+            <!-- <ul class="navbar-dropdown">
               <li>
                 <a href="#!">Sass</a>
               </li>
@@ -318,7 +321,7 @@ ul.slick-dots {
               <li>
                 <a href="#!">Stylus</a>
               </li>
-            </ul>
+            </ul> -->
           </li>
           <li>
             <a href="#!">Contact</a>
@@ -380,11 +383,11 @@ ul.slick-dots {
 
 <!-- <div class="headerr">
 </div> -->
-  <div class="section _1s mt-3 pb-2 wf-section">
+  <div class="section _1s mt-5 pb-2 wf-section">
     
     <div class="container">
     
-                <div class="">
+                <div class="mt-4">
                   <div class="row mb-3">
                     <div class="col-lg-6">
                       <h1 class="h1 gradien">Tired of Buying <span style="color:#4c95f5;font-weight: 900;">Expensive</span> Data?</h1>
