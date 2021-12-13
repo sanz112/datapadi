@@ -1304,7 +1304,8 @@
      flex: 0 0 auto;
    }
    
-   .ft-logo {
+   .ft-logo, .ft-log {
+    
      width: 144px;
    }
    
@@ -2568,9 +2569,14 @@
    
      .ft-logo {
        width: 105px;
-       /* margin-bottom: 40px; */
+       margin-bottom: 40px;
      }
    
+     .ft-log {
+      width: 105px;
+      /* margin-bottom: 40px; */
+    }
+
      .soc-row {
        margin-bottom: 30px;
        -webkit-box-pack: center;
