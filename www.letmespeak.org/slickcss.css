@@ -2568,7 +2568,7 @@
    
      .ft-logo {
        width: 105px;
-       margin-bottom: 40px;
+       /* margin-bottom: 40px; */
      }
    
      .soc-row {
@@ -2748,8 +2748,8 @@
    
      .h1.gradien {
        margin-bottom: 10px;
-       font-size: 10vw !important;
-       line-height: 10vw !important;
+       /* font-size: 10vw !important;
+       line-height: 10vw !important; */
      }
    
      .h1-subtitle {
