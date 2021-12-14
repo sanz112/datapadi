@@ -73,8 +73,8 @@
      margin-top: 0px;
      margin-bottom: 0px;
      color: #000;
-     font-size: 30px;
-     line-height: 80px !important;
+     font-size: 60px;
+     line-height: 70px !important;
      font-weight: 700;
      letter-spacing: -0.02em;
    }
@@ -2754,8 +2754,8 @@
    
      .h1.gradien {
        margin-bottom: 3px;
-       /* font-size: 10vw !important;
-       line-height: 10vw !important; */
+       font-size: 10vw !important;
+       line-height: 10vw !important;
      }
    
      .h1-subtitle {
