@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html data-wf-domain="www.$padi.org"  lang="en,ru">
 <head>
@@ -210,9 +211,10 @@ display: none;
 position: absolute;
 top: 0;
 right: 0;
+/* float: right; */
 background: transparent;
 height: 55px;
-width: 70px;
+width: 60px;
 }
 nav ul li a:hover, nav ul li a:visited:hover {
 /* background: #ffffff; */
@@ -225,6 +227,11 @@ color: #a90c0c !important;
 font-size: 50px;
 line-height: 60px !important;
 }
+
+.easy {
+  display: inline !important;
+}
+
 
 .brand {
 margin: auto;
@@ -240,7 +247,8 @@ color: #181818;
 }
 
 .nav-mobile {
-  display: block;
+  display: inline-flex;
+  justify-content: end;
 }
 nav {
   width: 100%;
@@ -316,15 +324,35 @@ color: #a90c0c;
 }
 
 
+.easy {
+  display: none;
+  background: transparent;
+  border: 2px solid #a90c0c;
+  border-radius: 10px;
+}
+
+.easy:hover {
+
+  background: #a90c0c;
+  color: #fff !important;
+
+}
+
+
 </style>
 <section class="navigation">
 <div class="nav-container">
+
 <!-- <div class="row"> -->
 <div class="brand">
 <img height="auto" width="100vw" src="./images/datarewardlogo.png" loading="lazy" alt="" class="ft-log"/>
+
 </div>
+<a style="position: absolute; right: 50px; top: 5px; color: #000; font-size: 18px;" class="easy btn btn-md btn-success" href="">Easy Sign Up</a>
 <nav>
-<div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+  
+<div class="nav-mobile">
+  <div class="row d-flex"><a id="navbar-toggle" href="#!"><span></span></a></div></div>
 <ul class="nav-list">
   <li>
     <a href="#!">Home</a>
