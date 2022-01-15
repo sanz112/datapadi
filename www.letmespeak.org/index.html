@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html data-wf-domain="www.$padi.org"  lang="en,ru">
 <head>
@@ -437,11 +438,22 @@ padding-top: 0px !important;
 
 <!-- <div class="headerr">
 </div> -->
+<style>
+  @media (max-width: 768px) {
+  .img-fluidd {
+    display: block !important
+  }
+  .img-fluid1 {
+    display: none !important
+  }
+}
+</style>
 <div class="section _1s mt-5  pb-2 wf-section">
 
 <div class="container">
 
         <div class="mt-sm-2 mt-lg-4 py-1">
+          <img class="d-none img-fluidd" height="100%" width="100%" src="images/header.png" alt="alternative">
           <div class="row mb-3">
             <div class="col-lg-6">
               <h1 class="h1 gradien">Tired of buying <span style="color:#a90c0c; font-weight: 900;">Expensive</span> Data?</h1>
@@ -466,7 +478,7 @@ list-style-type: square;
           <!-- <a href="#!" class="btn px-3 py-2 mx-auto w-sm-100 d-md-0 btn-outline-data btn-lg">Get Data</a> -->
         </div>
         <div class="col-lg-6">
-          <img class="img-fluid" height="100%" width="100%" src="images/header.png" alt="alternative">
+          <img class="img-fluid img-fluid1" height="100%" width="100%" src="images/header.png" alt="alternative">
     </div>
           </div>
           
@@ -1195,18 +1207,7 @@ $('.play-btn').toggleClass("active");
 
 <script type="text/javascript" src="./slick.js"></script>
 <script type="text/javascript" src="./slickjs.js"></script>
-<!-- <script type="text/javascript">
-$('.slider').slick({
-slidesToShow: 1,
-slidesToScroll: 1,
-prevArrow: $('.prev'),
-nextArrow: $('.next'),
-dots: true,
-appendDots: $('.dots_nav'),
-fade: true,
-/*adaptiveHeight: true,*/
-});
-</script> -->
+
 
 </body>
 </html>
